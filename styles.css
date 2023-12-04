@@ -9,7 +9,7 @@ body {
 }
 
 .container {
-    width: 35%;
+    /* width: 35%; */
     text-align: center;
     background-color: #fff;
     padding: 30px;
@@ -84,4 +84,23 @@ i {
 
 .delete-icon:hover {
     color: #c0392b;
+}
+
+
+@media screen and (max-width: 768px) {
+    input {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .container {
+        padding: 20px;
+    }
+}
+
+@media screen and (min-width: 1025px) {
+    .container {
+        width: 38%;
+    }
 }
